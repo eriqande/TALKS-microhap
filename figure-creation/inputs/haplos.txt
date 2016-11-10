@@ -1,0 +1,12 @@
+amplicon	haplotype	pos
+Amplicon_1	1	NA
+Amplicon_1	2	3
+Amplicon_1	3	3
+Amplicon_1	3	10
+Amplicon_1	4	3
+Amplicon_1	4	10
+Amplicon_1	4	13
+Amplicon_1	5	10
+Amplicon_1	5	13
+Amplicon_2	1	NA
+Amplicon_2	2	16
