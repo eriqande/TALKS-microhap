@@ -3,3 +3,14 @@
 .RData
 .Ruserdata
 figure-creation/output
+
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc
+microhaps_crib_sheet
+images
+.DS_Store
