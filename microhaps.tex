@@ -550,7 +550,7 @@ Cost: $<$\$15/fish
 
 
 
-\begin{frame}{Nanofluidic chips, a known quantity}
+\begin{frame}{Microfluidic chips, a known quantity}
 \begin{center}
 \includegraphics[width=0.75\textwidth]{mhap_figs/AC_calculating_chipwall.jpg}
 \end{center}
@@ -595,7 +595,7 @@ genotyping effort.
 \begin{frame}{Developing GTseq Amplicons for Rockfish}
 \begin{itemize}
 \item ddRAD seq on 16 individuals 
-\item $\approx 4,000$ genome fragments sequences
+\item $\approx 4,000$ genome fragments sequenced
 \item 200 developed into amplicons, and tested
 \item 165 amplicons retained
 \item Amplified and sequenced from 240 individuals.
@@ -685,9 +685,10 @@ genotyping effort.
 \begin{frame}{Nuts and bolts}
 \framesubtitle{Software from our lab -- I}
 
-{\tt\Large haplot}
+{\tt {\Large haplot} (microhaplot, haplotr, haPLOType?)} 
 \begin{itemize}
-\item an R package
+\item an R package by Thomas Ng
+\item Appoint SNPs in haplotypes with a VCF file
 \item Extract haplotypes from SAM files
 \item Filter on Read Depth / Allelic Balance ratio
 \item Partially completed Bayesian inference of haplotypes
@@ -711,7 +712,7 @@ genotyping effort.
 
 {\tt\Large CKMRsim}
 \begin{itemize}
-\item an R package
+\item an R package by Eric C. Anderson
 \item Estimate false positive rates for pairwise relationship inference
 \item Built to accommodate general genotyping error models
 \item Importance sampling algorithm to estimate very small probabilities
@@ -725,6 +726,16 @@ genotyping effort.
 
 
 \begin{frame}{Conclusions}
+\begin{itemize}
+\item NGS technologies provide opportunities for low-cost high-throughput
+genotyping of many individuals
+\item Typical pipelines for GTseq and amplicon sequencing don't extract as
+much information as possible.
+\item Preserving the haplotypic phase of SNPs on reads yields multiallelic markers\ldots
+\item \ldots that provide substantially more power for relationship inference
+(at least in high-diversity species)
+\item Tools for handling these microhaplotype data are available from our lab
+\end{itemize}
 
 
 This talk available at:
